@@ -1,0 +1,216 @@
+body{
+   font-family: 'Open Sans',sans-serif;
+   background: #202831;
+   height: 800px;
+} 
+
+img{
+ display: inline-block;
+ width: 60px;
+}
+
+.navbar{
+  padding-left: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content:start;
+  background-color: #151d26;
+  border-radius: 5px;
+  height: 35px;
+}   
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+h1{
+  position: relative;
+  left: 20px;
+  color: white;
+}
+
+p{
+  position: relative;
+  left: 20px;
+  color: white;
+}
+
+.breads{
+  margin: 0px 500px 0px 0px ;  
+  position: relative;  
+  display: flex;
+  height: 300px;
+  width: 1490px;
+  justify-content: space-around;
+  top: 10px;
+}
+ 
+.cookies{
+  margin: 50px 500px 0px 0px ;  
+  position: relative;  
+  display: flex;
+  height: 300px;
+  width: 1490px;
+  justify-content: space-around;
+  top: 10px;
+}      
+
+.pastries{
+  margin: 50px 500px 0px 0px ;  
+  position: relative;  
+  display: flex;
+  height: 300px;
+  width: 1490px;
+  justify-content: space-around;
+  top: 10px;
+} 
+
+.cakes{
+  margin: 50px 500px 0px 0px ;  
+  position: relative;  
+  display: flex;
+  height: 300px;
+  width: 1490px;
+  justify-content: space-around;
+  top: 10px;
+} 
+
+.biscuits{
+  margin: 50px 500px 0px 0px ;  
+  position: relative;  
+  display: flex;
+  height: 300px;
+  width: 1490px;
+  justify-content: space-around;
+  top: 10px;
+} 
+
+.muffins{
+  margin: 50px 500px 0px 0px ;  
+  position: relative;  
+  display: flex;
+  height: 300px;
+  width: 1490px;
+  justify-content: space-around;
+  top: 10px;
+} 
+
+.buns{
+  margin: 50px 500px 0px 0px ;  
+  position: relative;  
+  display: flex;
+  height: 300px;
+  width: 1490px;
+  justify-content: space-around;
+  top: 10px;
+} 
+.doughnuts{
+  margin: 50px 500px 0px 0px ;  
+  position: relative;  
+  display: flex;
+  height: 300px;
+  width: 1490px;
+  justify-content: space-around;
+  top: 10px;
+} 
+
+div img{
+  display: inline-block;
+  margin-top: 20px;
+  width: 250px;
+  height: 300px;
+  border-radius: 8px;
+  
+}
+
+div img:hover{
+ transform: scale(1.1); 
+ transition: 0.2s ease-in;
+}
+
+#search{
+  position: relative;
+  left: 575px;
+  height: 24px;
+  top: 6px;
+  left: 570px;
+}
+
+.container{
+  justify-content: space-around;
+  position: relative;
+  top: 10px;
+}
+
+nav a:hover{
+  background-color: rgb(242, 143, 68);
+  height: 21px;
+  border-radius: 2px;
+}
+
+header{
+  display: inline-block;
+  color: white;
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer{
+  margin-top: 50px;
+  position: relative;
+  padding: 5px 0px 0px 20px;
+  background-color: #151d26;
+  color: white;
+  font-size: 18px;
+  height: 250px;
+  top: 30px;
+  border-radius: 8px;
+}
+
+.para {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-right: 30px;
+  /* background-color: white; */
+  width: 1490px;
+  height: 65px;
+  top: 50px;
+  
+}
+
+.buy{
+  display:block;
+  /* background-color: rgb(255, 180, 105); */
+  color: white;
+  /* height: 28px; */
+  /* width: 250px; */
+  /* justify-content: center;
+  align-items: center; */
+  /* margin: 22px; */
+}
+
+.btn{
+  display: block;
+  /* position: relative; */
+  background-color: rgb(138, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 28px;
+  margin-top: 5px;
+  /* padding: 10px; */
+  /* bottom: 20px; */
+}
+
+.btn:hover{
+  /* box-shadow: 5px black; */
+  cursor: pointer;
+  transform: scale(1.1); 
+  transition: 0.2s ease-in-out;
+}
